@@ -12,12 +12,12 @@ public class TankerGdxGame extends ApplicationAdapter {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+		img = new Texture("KenneyTanksPack/tanks_tankGreen1.png");
 	}
 
 	@Override
 	public void render () {
-		ScreenUtils.clear(1, 0, 0, 1);
+		ScreenUtils.clear(0, 0, 1, 0.5f);
 		batch.begin();
 		batch.draw(img, 0, 0);
 		batch.end();
