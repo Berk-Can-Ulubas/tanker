@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class TankerGdxGame extends Game {
 
 	public static TankerGdxGame INSTANCE;
-	public static int WINDOW_WIDTH; // 854x480 is a 16:9 aspect ratio
+	public static int WINDOW_WIDTH;
 	public static int WINDOW_HEIGHT;
 	public SpriteBatch batch;
 
