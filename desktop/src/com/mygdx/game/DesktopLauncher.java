@@ -20,7 +20,6 @@ public class DesktopLauncher {
 		config.useVsync(true);
 		config.setMaximized(true);
 		config.setWindowIcon(Files.FileType.Internal, "KenneyTanksPack/tanks_tankGreen1.png");
-		new Lwjgl3Application(new TankerGdxGame(), config);
-
+		new Lwjgl3Application(new com.mygdx.game.TankerGdxGame(), config);
 	}
 }
