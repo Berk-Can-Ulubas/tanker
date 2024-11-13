@@ -16,9 +16,9 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
 		config.setTitle("Tanker");
-		config.setResizable(true);
+		config.setResizable(false);
 		config.useVsync(true);
-		config.setMaximized(true);
+		config.setWindowedMode(1280, 720);
 		config.setWindowIcon(Files.FileType.Internal, "KenneyTanksPack/tanks_tankGreen1.png");
 		new Lwjgl3Application(new com.mygdx.game.TankerGdxGame(), config);
 	}
